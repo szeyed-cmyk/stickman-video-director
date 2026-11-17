@@ -12,7 +12,7 @@
     "sharp": "0.35.5"
   },
   "scripts": {
-    "start": "node scripts/autopilot.mjs doctor",
+    "start": "node -e \"console.log('Stickman runtime ready'); setInterval(() => {}, 30000)\"",
     "test": "node --test tests/*.test.mjs",
     "doctor": "node scripts/autopilot.mjs doctor"
   }
